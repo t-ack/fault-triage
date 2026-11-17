@@ -1,6 +1,6 @@
 # fault-triage
 
-fault-triage reads customer fault messages about their cars and gives each one an urgency tag and a fix path. The rules are plain Python patterns with no LLM, web server or database. The alert code from the car sets a minimum tag, and the message text can only raise it. That lets the rules catch safety problems that customers describe politely and that the car never flagged.
+fault-triage reads customer fault messages about their cars and gives each one an urgency tag and a fix path. The rules engine is plain Python patterns and makes no LLM calls, with no web server or database. OpenRouter is set up for the next stage, where an LLM will classify messages. The alert code from the car sets a minimum tag, and the message text can only raise it. That lets the rules catch safety problems that customers describe politely and that the car never flagged.
 
 ## Setup and running the tests
 
@@ -14,6 +14,21 @@ pytest -s
 ```
 
 `-s` shows the tag and fix path counts printed by the test run.
+
+## OpenRouter setup
+
+The rules engine doesn't need this. It's only for the LLM stage and the live smoke test.
+
+1. Get an API key at https://openrouter.ai/keys.
+2. Copy the example file: `cp .env.example .env`
+3. Open `.env` and replace the placeholders with your key and the model slug from the course:
+   ```
+   OPENROUTER_API_KEY=sk-or-...
+   OPENROUTER_MODEL=...
+   ```
+4. Run the tests: `pytest -v`. With a key set, `tests/test_llm_smoke.py` sends a one-line prompt and checks that a reply comes back. Without a key it is skipped and the other tests still run.
+
+`.env` is in `.gitignore`, so your key stays out of git. In code, `fault_triage.llm_client.get_client()` returns an OpenAI client pointed at `https://openrouter.ai/api/v1`, and `get_model()` returns the model slug. Both raise `OpenRouterConfigError` if a value is missing or still the placeholder.
 
 ## Tags and fix paths
 
