@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10221",
+    "MSG-10222",
+    "MSG-10223",
+    "MSG-10224",
+    "MSG-10225",
+    "MSG-10226",
+    "MSG-10227",
+    "MSG-10228",
+    "MSG-10229",
+    "MSG-10230",
+    "MSG-10231",
+    "MSG-10232",
+    "MSG-10233",
+    "MSG-10234",
+    "MSG-10235",
+    "MSG-10236",
+    "MSG-10237",
+    "MSG-10238",
+    "MSG-10239",
+    "MSG-10240"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10221\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Washer nozzle spraying onto the bonnet instead of the windscreen.\"}, {\"message_id\": \"MSG-10222\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Tyre pressure warning light indicating one wheel is low.\"}, {\"message_id\": \"MSG-10223\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Soft and sinking brake pedal with delayed bite.\"}, {\"message_id\": \"MSG-10224\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning code BRK_w003 and customer asking whether it is safe to keep driving.\"}, {\"message_id\": \"MSG-10225\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Wiper arm grinding at park position while still clearing the windscreen.\"}, {\"message_id\": \"MSG-10226\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Car pulling to one side when stopping and a cut-off note asking whether it is safe to drive.\"}, {\"message_id\": \"MSG-10227\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heater slow to warm up but eventually reaches temperature.\"}, {\"message_id\": \"MSG-10228\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port will not latch while charging still works.\"}, {\"message_id\": \"MSG-10229\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning code ABS_w002.\"}, {\"message_id\": \"MSG-10230\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Heavy and stiff steering at low speed.\"}, {\"message_id\": \"MSG-10231\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Touchscreen rebooting intermittently while driving.\"}, {\"message_id\": \"MSG-10232\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Reduced estimated range in cold weather with no faults.\"}, {\"message_id\": \"MSG-10233\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Steering assist warning code EPAS_w202.\"}, {\"message_id\": \"MSG-10234\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake fault code BRK_a001 with spongy pedal and reduced braking.\"}, {\"message_id\": \"MSG-10235\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Wiper not clearing the windscreen properly.\"}, {\"message_id\": \"MSG-10236\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rear suspension clunk over speed bumps.\"}, {\"message_id\": \"MSG-10237\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Stability control warning code ESP_w003.\"}, {\"message_id\": \"MSG-10238\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Slow home charging with no fault codes.\"}, {\"message_id\": \"MSG-10239\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Phone key intermittently failing to unlock the car.\"}, {\"message_id\": \"MSG-10240\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake pedal grabbing unevenly with car pulling to one side when stopping.\"}]}"
+}

@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10021",
+    "MSG-10022",
+    "MSG-10023",
+    "MSG-10024",
+    "MSG-10025",
+    "MSG-10026",
+    "MSG-10027",
+    "MSG-10028",
+    "MSG-10029",
+    "MSG-10030",
+    "MSG-10031",
+    "MSG-10032",
+    "MSG-10033",
+    "MSG-10034",
+    "MSG-10035",
+    "MSG-10036",
+    "MSG-10037",
+    "MSG-10038",
+    "MSG-10039",
+    "MSG-10040"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10021\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port cover and latch are not sitting flush or engaging properly.\"}, {\"message_id\": \"MSG-10022\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ABS warning code is active with altered brake feel.\"}, {\"message_id\": \"MSG-10023\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Range has dropped significantly in cold weather.\"}, {\"message_id\": \"MSG-10024\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake warning light is on with a soft, long pedal.\"}, {\"message_id\": \"MSG-10025\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen reboots and freezes when charging.\"}, {\"message_id\": \"MSG-10026\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper chatters and streaks the glass.\"}, {\"message_id\": \"MSG-10027\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS and stability warnings came on with a sinking brake pedal.\"}, {\"message_id\": \"MSG-10028\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port latch sticks on the first try.\"}, {\"message_id\": \"MSG-10029\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen reboots and goes black while driving.\"}, {\"message_id\": \"MSG-10030\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat is slow to warm up on cold mornings.\"}, {\"message_id\": \"MSG-10031\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Range has dropped about twenty percent since the cold snap.\"}, {\"message_id\": \"MSG-10032\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulls to one side with a softer brake pedal.\"}, {\"message_id\": \"MSG-10033\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port door sticks partway when opened.\"}, {\"message_id\": \"MSG-10034\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app shows a stale location and will not refresh.\"}, {\"message_id\": \"MSG-10035\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The wiper arm grinds when parking.\"}, {\"message_id\": \"MSG-10036\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Grinding is felt through the brake pedal when stopping.\"}, {\"message_id\": \"MSG-10037\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rear suspension clunks over speed bumps.\"}, {\"message_id\": \"MSG-10038\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The phone key will not unlock the car in the garage.\"}, {\"message_id\": \"MSG-10039\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The EPAS warning is active with heavy steering and a pull.\"}, {\"message_id\": \"MSG-10040\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The defrost is slow to clear the windscreen.\"}]}"
+}

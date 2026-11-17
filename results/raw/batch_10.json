@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10181",
+    "MSG-10182",
+    "MSG-10183",
+    "MSG-10184",
+    "MSG-10185",
+    "MSG-10186",
+    "MSG-10187",
+    "MSG-10188",
+    "MSG-10189",
+    "MSG-10190",
+    "MSG-10191",
+    "MSG-10192",
+    "MSG-10193",
+    "MSG-10194",
+    "MSG-10195",
+    "MSG-10196",
+    "MSG-10197",
+    "MSG-10198",
+    "MSG-10199",
+    "MSG-10200"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10181\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A rear suspension clunk over bumps with otherwise normal handling.\"}, {\"message_id\": \"MSG-10182\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A wiper arm grinding when it parks while still clearing the screen.\"}, {\"message_id\": \"MSG-10183\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An ABS warning with brake pedal pulsing under braking.\"}, {\"message_id\": \"MSG-10184\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A front defrost that is slow to clear the windscreen but eventually clears.\"}, {\"message_id\": \"MSG-10185\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Heavy steering that pulls to one side at low speed.\"}, {\"message_id\": \"MSG-10186\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"An unexpected overnight drop in range with normal charging.\"}, {\"message_id\": \"MSG-10187\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An EPAS steering warning with stiff steering at low speed.\"}, {\"message_id\": \"MSG-10188\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"A touchscreen that rebooted once during a drive and recovered.\"}, {\"message_id\": \"MSG-10189\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A spongy brake pedal that sinks further than normal after a long drive.\"}, {\"message_id\": \"MSG-10190\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A driver-side wiper streaking across the view but still wiping.\"}, {\"message_id\": \"MSG-10191\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A charge port latch that will not release while charging still works.\"}, {\"message_id\": \"MSG-10192\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A front-left suspension clunk during tight turns with normal brakes and steering.\"}, {\"message_id\": \"MSG-10193\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An ESP stability control warning after stopping on a wet road.\"}, {\"message_id\": \"MSG-10194\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A reduced range estimate at the same battery level with normal charging.\"}, {\"message_id\": \"MSG-10195\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A faint hum from under the car above 60 km/h with normal driving.\"}, {\"message_id\": \"MSG-10196\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake warning with the pedal going almost to the floor and longer stopping distance.\"}, {\"message_id\": \"MSG-10197\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Cabin heat that cuts out and blows cold at low speed.\"}, {\"message_id\": \"MSG-10198\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake pedal sinking further than normal with a shudder when slowing.\"}, {\"message_id\": \"MSG-10199\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A driver-side wiper streaking across the eyeline and grinding when it parks.\"}, {\"message_id\": \"MSG-10200\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An ABS warning with the car pulling left under braking, message cut off mid-sentence.\"}]}"
+}

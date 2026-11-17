@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10061",
+    "MSG-10062",
+    "MSG-10063",
+    "MSG-10064",
+    "MSG-10065",
+    "MSG-10066",
+    "MSG-10067",
+    "MSG-10068",
+    "MSG-10069",
+    "MSG-10070",
+    "MSG-10071",
+    "MSG-10072",
+    "MSG-10073",
+    "MSG-10074",
+    "MSG-10075",
+    "MSG-10076",
+    "MSG-10077",
+    "MSG-10078",
+    "MSG-10079",
+    "MSG-10080"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10061\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rain sensor chirps when the car is parked.\"}, {\"message_id\": \"MSG-10062\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulls to one side when braking.\"}, {\"message_id\": \"MSG-10063\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The heater fan is noisy when defrost is on.\"}, {\"message_id\": \"MSG-10064\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The phone key is not reliably unlocking the doors.\"}, {\"message_id\": \"MSG-10065\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"There is a rattle from the dashboard on bumpy roads.\"}, {\"message_id\": \"MSG-10066\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An amber brake warning code BRK_w003 is active.\"}, {\"message_id\": \"MSG-10067\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The mileage shown in the app does not match the odometer.\"}, {\"message_id\": \"MSG-10068\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The wiper arm stops mid-sweep and rests on the glass.\"}, {\"message_id\": \"MSG-10069\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"There is a grinding sound from the front when stopping at the lights.\"}, {\"message_id\": \"MSG-10070\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The climate control touchscreen freezes and requires a reboot.\"}, {\"message_id\": \"MSG-10071\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port cover will not latch closed.\"}, {\"message_id\": \"MSG-10072\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The estimated range drops faster than expected on highway trips.\"}, {\"message_id\": \"MSG-10073\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ESP_w003 stability control light came on while turning.\"}, {\"message_id\": \"MSG-10074\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"There is a suspension thump from the front end over expansion joints.\"}, {\"message_id\": \"MSG-10075\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver side wiper streaks and grinds when parking.\"}, {\"message_id\": \"MSG-10076\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal is sinking and shudders when slowing down.\"}, {\"message_id\": \"MSG-10077\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin takes ages to warm up and the fan speed drops.\"}, {\"message_id\": \"MSG-10078\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen reboots every time the car starts charging.\"}, {\"message_id\": \"MSG-10079\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ESP_w003 stability warning flickers and the steering feels loose.\"}, {\"message_id\": \"MSG-10080\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port door will not latch closed after plugging in.\"}]}"
+}

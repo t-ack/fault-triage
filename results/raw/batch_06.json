@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10101",
+    "MSG-10102",
+    "MSG-10103",
+    "MSG-10104",
+    "MSG-10105",
+    "MSG-10106",
+    "MSG-10107",
+    "MSG-10108",
+    "MSG-10109",
+    "MSG-10110",
+    "MSG-10111",
+    "MSG-10112",
+    "MSG-10113",
+    "MSG-10114",
+    "MSG-10115",
+    "MSG-10116",
+    "MSG-10117",
+    "MSG-10118",
+    "MSG-10119",
+    "MSG-10120"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10101\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulls to the left when braking at low speed, indicating a steering or brake pull issue.\"}, {\"message_id\": \"MSG-10102\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port latch sticks when unplugging but charging still works.\"}, {\"message_id\": \"MSG-10103\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ESP stability control fault code ESP_w003 is active and the customer is asking if it is safe to drive.\"}, {\"message_id\": \"MSG-10104\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The cabin heater is blowing cold air instead of providing heat.\"}, {\"message_id\": \"MSG-10105\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The estimated range dropped sharply overnight, suggesting a battery reporting issue.\"}, {\"message_id\": \"MSG-10106\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen froze and rebooted itself while driving.\"}, {\"message_id\": \"MSG-10107\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Power steering warning EPAS_a191 with a heavy steering wheel at parking speed.\"}, {\"message_id\": \"MSG-10108\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper chatters across dry glass but still wipes.\"}, {\"message_id\": \"MSG-10109\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A suspension clunk comes from the front right corner over bumps.\"}, {\"message_id\": \"MSG-10110\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning code ABS_w002 is illuminated and the customer is avoiding driving the car.\"}, {\"message_id\": \"MSG-10111\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The phone key does not unlock the car from the pocket and requires the phone to be held against the handle.\"}, {\"message_id\": \"MSG-10112\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal feels soft and requires extra pressure when stopping at lights.\"}, {\"message_id\": \"MSG-10113\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The heater fan whines briefly at start-up but the cabin warms normally.\"}, {\"message_id\": \"MSG-10114\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning BRK_w003 with a grinding sensation when braking and the car has been stopped.\"}, {\"message_id\": \"MSG-10115\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The tyre pressure warning recurs every morning after topping up, indicating a possible sensor fault.\"}, {\"message_id\": \"MSG-10116\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The wipers stop mid-sweep during rain and require the car to be restarted.\"}, {\"message_id\": \"MSG-10117\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ESP stability warning with the car pulling to the right under light braking.\"}, {\"message_id\": \"MSG-10118\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app repeatedly loops back to the sign-in screen after an update on multiple phones.\"}, {\"message_id\": \"MSG-10119\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning BRK_a001 with a long brake pedal at low speed.\"}, {\"message_id\": \"MSG-10120\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A rattle comes from the rear seat area when driving over rough roads.\"}]}"
+}

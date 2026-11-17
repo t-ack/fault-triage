@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10001",
+    "MSG-10002",
+    "MSG-10003",
+    "MSG-10004",
+    "MSG-10005",
+    "MSG-10006",
+    "MSG-10007",
+    "MSG-10008",
+    "MSG-10009",
+    "MSG-10010",
+    "MSG-10011",
+    "MSG-10012",
+    "MSG-10013",
+    "MSG-10014",
+    "MSG-10015",
+    "MSG-10016",
+    "MSG-10017",
+    "MSG-10018",
+    "MSG-10019",
+    "MSG-10020"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10001\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The wiper streaks and grinds when parking but still operates.\"}, {\"message_id\": \"MSG-10002\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal feels soft and sinks before biting.\"}, {\"message_id\": \"MSG-10003\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS_w002 alert with a long brake pedal and the vehicle has been stopped.\"}, {\"message_id\": \"MSG-10004\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The rear wiper is stuck and not clearing the glass.\"}, {\"message_id\": \"MSG-10005\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat is slow to warm up but eventually reaches temperature.\"}, {\"message_id\": \"MSG-10006\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The steering pulls to one side under light braking.\"}, {\"message_id\": \"MSG-10007\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port will not latch but charging still works.\"}, {\"message_id\": \"MSG-10008\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Range is dropping sharply and the screen estimate falls fast in cold weather.\"}, {\"message_id\": \"MSG-10009\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"EPAS_w202 alert with heavy steering and assist warning chime.\"}, {\"message_id\": \"MSG-10010\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen infotainment screen reboots while driving.\"}, {\"message_id\": \"MSG-10011\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A knock comes from the rear over speed bumps and dips.\"}, {\"message_id\": \"MSG-10012\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"BRK_w003 brake warning light with a lower-than-usual pedal and the car is parked.\"}, {\"message_id\": \"MSG-10013\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car grinds when stopping and the brake pedal feels softer.\"}, {\"message_id\": \"MSG-10014\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The heater fan whistles on low speed while the cabin still warms up.\"}, {\"message_id\": \"MSG-10015\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper streaks and grinds when parking but still wipes.\"}, {\"message_id\": \"MSG-10016\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ESP_w003 stability warning with unsettled handling on a wet corner.\"}, {\"message_id\": \"MSG-10017\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The mobile app loops back to the password screen and will not log in.\"}, {\"message_id\": \"MSG-10018\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"BRK_a001 alert with the brake pedal dropping to the floor and the car not driven since.\"}, {\"message_id\": \"MSG-10019\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The phone key and key card do not unlock the doors.\"}, {\"message_id\": \"MSG-10020\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A light rattle comes from behind the dashboard on rough roads.\"}]}"
+}

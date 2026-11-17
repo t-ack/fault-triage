@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10241",
+    "MSG-10242",
+    "MSG-10243",
+    "MSG-10244",
+    "MSG-10245",
+    "MSG-10246",
+    "MSG-10247",
+    "MSG-10248",
+    "MSG-10249",
+    "MSG-10250",
+    "MSG-10251",
+    "MSG-10252",
+    "MSG-10253",
+    "MSG-10254",
+    "MSG-10255",
+    "MSG-10256",
+    "MSG-10257",
+    "MSG-10258",
+    "MSG-10259",
+    "MSG-10260"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10241\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rear wheel bearings are humming at highway speed.\"}, {\"message_id\": \"MSG-10242\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Driver-side wiper arm grinds when parking.\"}, {\"message_id\": \"MSG-10243\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning code ABS_w002 with altered brake pedal feel.\"}, {\"message_id\": \"MSG-10244\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Cabin heat stays cool despite the fan running at full speed.\"}, {\"message_id\": \"MSG-10245\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Car pulls to the right when braking hard.\"}, {\"message_id\": \"MSG-10246\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"App login loop is logging the user out and disabling the phone key.\"}, {\"message_id\": \"MSG-10247\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"EPAS_a191 steering assist warning causes the wheel to jerk at low speed.\"}, {\"message_id\": \"MSG-10248\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake pedal is sinking and grabs late before biting.\"}, {\"message_id\": \"MSG-10249\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning light BRK_w003 is on and the customer asks whether it is safe to drive.\"}, {\"message_id\": \"MSG-10250\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rear end rattles over bumps after sitting in the rain.\"}, {\"message_id\": \"MSG-10251\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Charge port will not latch and charging stops after a few minutes.\"}, {\"message_id\": \"MSG-10252\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Wiper arm grinds when parking and the blade streaks the glass.\"}, {\"message_id\": \"MSG-10253\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Car tugs left and steering feels heavy when stopping.\"}, {\"message_id\": \"MSG-10254\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heater blows only lukewarm air on full heat.\"}, {\"message_id\": \"MSG-10255\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Touchscreen reboots while driving and loses map and music.\"}, {\"message_id\": \"MSG-10256\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Front wipers stop mid-sweep in heavy rain.\"}, {\"message_id\": \"MSG-10257\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Phone key fails on the first tap and works on the second.\"}, {\"message_id\": \"MSG-10258\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"App loops back to the sign-in screen after the update.\"}, {\"message_id\": \"MSG-10259\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS_w002 came on after a hard stop with a long brake pedal and the car is parked.\"}, {\"message_id\": \"MSG-10260\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Faint front clunk occurs over speed bumps at low speed.\"}]}"
+}

@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10161",
+    "MSG-10162",
+    "MSG-10163",
+    "MSG-10164",
+    "MSG-10165",
+    "MSG-10166",
+    "MSG-10167",
+    "MSG-10168",
+    "MSG-10169",
+    "MSG-10170",
+    "MSG-10171",
+    "MSG-10172",
+    "MSG-10173",
+    "MSG-10174",
+    "MSG-10175",
+    "MSG-10176",
+    "MSG-10177",
+    "MSG-10178",
+    "MSG-10179",
+    "MSG-10180"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10161\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Range estimate has dropped significantly in cold weather despite unchanged driving and charging habits.\"}, {\"message_id\": \"MSG-10162\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Driver side wiper streaks across the windscreen but still parks and wipes.\"}, {\"message_id\": \"MSG-10163\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS and brake warning lights with a soft brake pedal and the car pulling to one side.\"}, {\"message_id\": \"MSG-10164\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port fails to latch on the first attempt while charging still works.\"}, {\"message_id\": \"MSG-10165\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Grinding noise from the front wheels when stopped at lights.\"}, {\"message_id\": \"MSG-10166\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Driver side wiper grinds when parking and streaks the windscreen but still operates.\"}, {\"message_id\": \"MSG-10167\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat is slow to warm up on cold mornings but eventually reaches temperature.\"}, {\"message_id\": \"MSG-10168\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"App repeatedly requests login every morning despite correct password.\"}, {\"message_id\": \"MSG-10169\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake pedal feels soft and sinks further than normal with a brake assist message.\"}, {\"message_id\": \"MSG-10170\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Car pulls to one side on a straight, flat road with off-centre steering.\"}, {\"message_id\": \"MSG-10171\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rear suspension clunks over potholes and speed bumps.\"}, {\"message_id\": \"MSG-10172\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Steering assist warning illuminated on the dashboard.\"}, {\"message_id\": \"MSG-10173\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charging stopped early on the home wall connector without a warning.\"}, {\"message_id\": \"MSG-10174\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake pedal sinks slowly and the car pulls to one side when braking.\"}, {\"message_id\": \"MSG-10175\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat only blows lukewarm at highway speeds despite maximum temperature setting.\"}, {\"message_id\": \"MSG-10176\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Grinding noise when stopping and a soft brake pedal at the bottom.\"}, {\"message_id\": \"MSG-10177\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Phone key will not pair with the car after a software update.\"}, {\"message_id\": \"MSG-10178\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ESP stability warning lit on the motorway with unsettled braking.\"}, {\"message_id\": \"MSG-10179\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port flap sticks half open but charging still works.\"}, {\"message_id\": \"MSG-10180\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning light with the car pulling to one side when braking, and the customer asks if it is safe to drive.\"}]}"
+}

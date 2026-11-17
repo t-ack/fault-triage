@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10041",
+    "MSG-10042",
+    "MSG-10043",
+    "MSG-10044",
+    "MSG-10045",
+    "MSG-10046",
+    "MSG-10047",
+    "MSG-10048",
+    "MSG-10049",
+    "MSG-10050",
+    "MSG-10051",
+    "MSG-10052",
+    "MSG-10053",
+    "MSG-10054",
+    "MSG-10055",
+    "MSG-10056",
+    "MSG-10057",
+    "MSG-10058",
+    "MSG-10059",
+    "MSG-10060"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10041\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The estimated range is dropping significantly on the commute.\"}, {\"message_id\": \"MSG-10042\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper is streaking across the windscreen.\"}, {\"message_id\": \"MSG-10043\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rear seat heater only warms on one side.\"}, {\"message_id\": \"MSG-10044\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A rattle is coming from the dashboard over rough roads.\"}, {\"message_id\": \"MSG-10045\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal is sinking with a brake warning light active (BRK_w003).\"}, {\"message_id\": \"MSG-10046\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app keeps asking for a password and blocking remote features.\"}, {\"message_id\": \"MSG-10047\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port latch is slow to release when unplugging.\"}, {\"message_id\": \"MSG-10048\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ABS warning code ABS_w002 appeared after a wet stop.\"}, {\"message_id\": \"MSG-10049\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin fan is rattling loudly on the high setting.\"}, {\"message_id\": \"MSG-10050\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal is sinking further than normal on off-ramps.\"}, {\"message_id\": \"MSG-10051\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper is skipping and streaking with a grinding noise when parking.\"}, {\"message_id\": \"MSG-10052\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin heater is slow to warm up on cold mornings.\"}, {\"message_id\": \"MSG-10053\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The centre screen is rebooting while driving.\"}, {\"message_id\": \"MSG-10054\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rear door handle sticks and needs two pulls to open.\"}, {\"message_id\": \"MSG-10055\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The charge port will not latch and charging cannot start.\"}, {\"message_id\": \"MSG-10056\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The estimated range has dropped by about 30 km overnight since the cold snap.\"}, {\"message_id\": \"MSG-10057\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ABS warning code ABS_w002 is showing with a long brake pedal before biting.\"}, {\"message_id\": \"MSG-10058\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper is streaking across the view with a grinding noise when parking.\"}, {\"message_id\": \"MSG-10059\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The front suspension is clunking over speed bumps.\"}, {\"message_id\": \"MSG-10060\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app keeps logging the user out and requiring repeated sign-in.\"}]}"
+}

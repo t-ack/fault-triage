@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10121",
+    "MSG-10122",
+    "MSG-10123",
+    "MSG-10124",
+    "MSG-10125",
+    "MSG-10126",
+    "MSG-10127",
+    "MSG-10128",
+    "MSG-10129",
+    "MSG-10130",
+    "MSG-10131",
+    "MSG-10132",
+    "MSG-10133",
+    "MSG-10134",
+    "MSG-10135",
+    "MSG-10136",
+    "MSG-10137",
+    "MSG-10138",
+    "MSG-10139",
+    "MSG-10140"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10121\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charging stops at 80 percent and requires the schedule to be restarted.\"}, {\"message_id\": \"MSG-10122\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Wiper motor hums but the wipers still move properly.\"}, {\"message_id\": \"MSG-10123\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port won't open from the screen despite being unlocked.\"}, {\"message_id\": \"MSG-10124\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning light with a long pedal before braking (BRK_w003).\"}, {\"message_id\": \"MSG-10125\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Driver wiper streaks and grinds when parking but still wipes.\"}, {\"message_id\": \"MSG-10126\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rear clunk over speed bumps with otherwise normal driving.\"}, {\"message_id\": \"MSG-10127\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Soft brake pedal with longer stopping distance.\"}, {\"message_id\": \"MSG-10128\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat blows lukewarm and is slow to warm up.\"}, {\"message_id\": \"MSG-10129\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Rear wiper stops mid-sweep on the hatch glass.\"}, {\"message_id\": \"MSG-10130\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port latch sticks and needs a second press to open.\"}, {\"message_id\": \"MSG-10131\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Touchscreen reboots intermittently while driving.\"}, {\"message_id\": \"MSG-10132\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Car pulls to one side when slowing to a stop.\"}, {\"message_id\": \"MSG-10133\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Wiper grinds when parking but still wipes.\"}, {\"message_id\": \"MSG-10134\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Estimated range dropped sharply after a cold snap.\"}, {\"message_id\": \"MSG-10135\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning light with a softer brake pedal (ABS_w002).\"}, {\"message_id\": \"MSG-10136\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Phone key intermittently fails to unlock the door.\"}, {\"message_id\": \"MSG-10137\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Blower fan whines at max heat while heating otherwise works.\"}, {\"message_id\": \"MSG-10138\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Ride feels bouncy over bumps and dips with normal brakes.\"}, {\"message_id\": \"MSG-10139\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port warning appears although charging still starts.\"}, {\"message_id\": \"MSG-10140\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Grinding feel in the brake pedal when stopping.\"}]}"
+}

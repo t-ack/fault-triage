@@ -1,0 +1,301 @@
+message_id,vehicle_alert_code,llm_tag,llm_fix_path,llm_reason,rules_tag,rules_fix_path,tags_agree,floor_applied,llm_failed
+MSG-10001,NONE,routine,next_visit,The wiper streaks and grinds when parking but still operates.,routine,next_visit,True,False,False
+MSG-10002,NONE,safety_urgent,safety_callback,The brake pedal feels soft and sinks before biting.,safety_urgent,safety_callback,True,False,False
+MSG-10003,ABS_w002,safety_urgent,safety_callback,ABS_w002 alert with a long brake pedal and the vehicle has been stopped.,safety_urgent,safety_callback,True,False,False
+MSG-10004,NONE,soon,priority_booking,The rear wiper is stuck and not clearing the glass.,soon,priority_booking,True,False,False
+MSG-10005,HVAC_w003,routine,next_visit,Cabin heat is slow to warm up but eventually reaches temperature.,routine,next_visit,True,False,False
+MSG-10006,NONE,safety_urgent,safety_callback,The steering pulls to one side under light braking.,safety_urgent,safety_callback,True,False,False
+MSG-10007,CP_a004,routine,next_visit,The charge port will not latch but charging still works.,routine,next_visit,True,False,False
+MSG-10008,NONE,routine,next_visit,Range is dropping sharply and the screen estimate falls fast in cold weather.,routine,next_visit,True,False,False
+MSG-10009,EPAS_w202,safety_urgent,safety_callback,EPAS_w202 alert with heavy steering and assist warning chime.,safety_urgent,safety_callback,True,False,False
+MSG-10010,UI_a004,routine,remote_support,The touchscreen infotainment screen reboots while driving.,routine,remote_support,True,False,False
+MSG-10011,NONE,routine,next_visit,A knock comes from the rear over speed bumps and dips.,routine,next_visit,True,False,False
+MSG-10012,BRK_w003,safety_urgent,safety_callback,BRK_w003 brake warning light with a lower-than-usual pedal and the car is parked.,safety_urgent,safety_callback,True,False,False
+MSG-10013,NONE,safety_urgent,safety_callback,The car grinds when stopping and the brake pedal feels softer.,safety_urgent,safety_callback,True,False,False
+MSG-10014,HVAC_w003,routine,next_visit,The heater fan whistles on low speed while the cabin still warms up.,routine,next_visit,True,False,False
+MSG-10015,WIP_w001,routine,next_visit,The driver-side wiper streaks and grinds when parking but still wipes.,routine,next_visit,True,False,False
+MSG-10016,ESP_w003,safety_urgent,safety_callback,ESP_w003 stability warning with unsettled handling on a wet corner.,safety_urgent,safety_callback,True,False,False
+MSG-10017,NONE,routine,remote_support,The mobile app loops back to the password screen and will not log in.,routine,remote_support,True,False,False
+MSG-10018,BRK_a001,safety_urgent,safety_callback,BRK_a001 alert with the brake pedal dropping to the floor and the car not driven since.,safety_urgent,safety_callback,True,False,False
+MSG-10019,NONE,routine,remote_support,The phone key and key card do not unlock the doors.,routine,remote_support,True,False,False
+MSG-10020,NONE,routine,next_visit,A light rattle comes from behind the dashboard on rough roads.,routine,next_visit,True,False,False
+MSG-10021,NONE,routine,next_visit,The charge port cover and latch are not sitting flush or engaging properly.,routine,next_visit,True,False,False
+MSG-10022,ABS_w002,safety_urgent,safety_callback,The ABS warning code is active with altered brake feel.,safety_urgent,safety_callback,True,False,False
+MSG-10023,NONE,routine,next_visit,Range has dropped significantly in cold weather.,routine,next_visit,True,False,False
+MSG-10024,BRK_w003,safety_urgent,safety_callback,"The brake warning light is on with a soft, long pedal.",safety_urgent,safety_callback,True,False,False
+MSG-10025,UI_a004,routine,remote_support,The touchscreen reboots and freezes when charging.,routine,remote_support,True,False,False
+MSG-10026,WIP_w001,routine,next_visit,The driver-side wiper chatters and streaks the glass.,routine,next_visit,True,False,False
+MSG-10027,ABS_w002,safety_urgent,safety_callback,ABS and stability warnings came on with a sinking brake pedal.,safety_urgent,safety_callback,True,False,False
+MSG-10028,NONE,routine,next_visit,The charge port latch sticks on the first try.,routine,next_visit,True,False,False
+MSG-10029,UI_a004,routine,remote_support,The touchscreen reboots and goes black while driving.,routine,remote_support,True,False,False
+MSG-10030,HVAC_w003,routine,next_visit,Cabin heat is slow to warm up on cold mornings.,routine,next_visit,True,False,False
+MSG-10031,NONE,routine,next_visit,Range has dropped about twenty percent since the cold snap.,routine,next_visit,True,False,False
+MSG-10032,NONE,safety_urgent,safety_callback,The car pulls to one side with a softer brake pedal.,safety_urgent,safety_callback,True,False,False
+MSG-10033,CP_a004,routine,next_visit,The charge port door sticks partway when opened.,routine,next_visit,True,False,False
+MSG-10034,UI_a004,routine,remote_support,The app shows a stale location and will not refresh.,routine,remote_support,True,False,False
+MSG-10035,WIP_w001,routine,next_visit,The wiper arm grinds when parking.,routine,next_visit,True,False,False
+MSG-10036,NONE,safety_urgent,safety_callback,Grinding is felt through the brake pedal when stopping.,safety_urgent,safety_callback,True,False,False
+MSG-10037,NONE,routine,next_visit,The rear suspension clunks over speed bumps.,routine,next_visit,True,False,False
+MSG-10038,NONE,routine,remote_support,The phone key will not unlock the car in the garage.,routine,remote_support,True,False,False
+MSG-10039,EPAS_w202,safety_urgent,safety_callback,The EPAS warning is active with heavy steering and a pull.,safety_urgent,safety_callback,True,False,False
+MSG-10040,HVAC_w003,routine,next_visit,The defrost is slow to clear the windscreen.,soon,priority_booking,False,False,False
+MSG-10041,NONE,routine,next_visit,The estimated range is dropping significantly on the commute.,routine,next_visit,True,False,False
+MSG-10042,WIP_w001,routine,next_visit,The driver-side wiper is streaking across the windscreen.,routine,next_visit,True,False,False
+MSG-10043,HVAC_w003,routine,next_visit,The rear seat heater only warms on one side.,routine,next_visit,True,False,False
+MSG-10044,NONE,routine,next_visit,A rattle is coming from the dashboard over rough roads.,routine,next_visit,True,False,False
+MSG-10045,BRK_w003,safety_urgent,safety_callback,The brake pedal is sinking with a brake warning light active (BRK_w003).,safety_urgent,safety_callback,True,False,False
+MSG-10046,UI_a004,routine,remote_support,The app keeps asking for a password and blocking remote features.,routine,remote_support,True,False,False
+MSG-10047,CP_a004,routine,next_visit,The charge port latch is slow to release when unplugging.,routine,next_visit,True,False,False
+MSG-10048,ABS_w002,safety_urgent,safety_callback,The ABS warning code ABS_w002 appeared after a wet stop.,safety_urgent,safety_callback,True,False,False
+MSG-10049,NONE,routine,next_visit,The cabin fan is rattling loudly on the high setting.,routine,next_visit,True,False,False
+MSG-10050,NONE,safety_urgent,safety_callback,The brake pedal is sinking further than normal on off-ramps.,safety_urgent,safety_callback,True,False,False
+MSG-10051,NONE,routine,next_visit,The driver-side wiper is skipping and streaking with a grinding noise when parking.,routine,next_visit,True,False,False
+MSG-10052,HVAC_w003,routine,next_visit,The cabin heater is slow to warm up on cold mornings.,routine,next_visit,True,False,False
+MSG-10053,UI_a004,routine,remote_support,The centre screen is rebooting while driving.,routine,remote_support,True,False,False
+MSG-10054,NONE,routine,next_visit,The rear door handle sticks and needs two pulls to open.,routine,next_visit,True,False,False
+MSG-10055,CP_a004,soon,priority_booking,The charge port will not latch and charging cannot start.,soon,priority_booking,True,False,False
+MSG-10056,NONE,routine,next_visit,The estimated range has dropped by about 30 km overnight since the cold snap.,routine,next_visit,True,False,False
+MSG-10057,ABS_w002,safety_urgent,safety_callback,The ABS warning code ABS_w002 is showing with a long brake pedal before biting.,safety_urgent,safety_callback,True,False,False
+MSG-10058,WIP_w001,routine,next_visit,The driver-side wiper is streaking across the view with a grinding noise when parking.,routine,next_visit,True,False,False
+MSG-10059,NONE,routine,next_visit,The front suspension is clunking over speed bumps.,routine,next_visit,True,False,False
+MSG-10060,NONE,routine,remote_support,The app keeps logging the user out and requiring repeated sign-in.,routine,remote_support,True,False,False
+MSG-10061,NONE,routine,next_visit,The rain sensor chirps when the car is parked.,routine,next_visit,True,False,False
+MSG-10062,NONE,safety_urgent,safety_callback,The car pulls to one side when braking.,safety_urgent,safety_callback,True,False,False
+MSG-10063,HVAC_w003,routine,next_visit,The heater fan is noisy when defrost is on.,routine,next_visit,True,False,False
+MSG-10064,NONE,routine,remote_support,The phone key is not reliably unlocking the doors.,routine,remote_support,True,False,False
+MSG-10065,NONE,routine,next_visit,There is a rattle from the dashboard on bumpy roads.,routine,next_visit,True,False,False
+MSG-10066,BRK_w003,safety_urgent,safety_callback,An amber brake warning code BRK_w003 is active.,safety_urgent,safety_callback,True,False,False
+MSG-10067,NONE,routine,remote_support,The mileage shown in the app does not match the odometer.,routine,remote_support,True,False,False
+MSG-10068,WIP_w001,soon,priority_booking,The wiper arm stops mid-sweep and rests on the glass.,soon,priority_booking,True,False,False
+MSG-10069,NONE,safety_urgent,safety_callback,There is a grinding sound from the front when stopping at the lights.,safety_urgent,safety_callback,True,False,False
+MSG-10070,UI_a004,routine,remote_support,The climate control touchscreen freezes and requires a reboot.,routine,remote_support,True,False,False
+MSG-10071,CP_a004,routine,next_visit,The charge port cover will not latch closed.,routine,next_visit,True,False,False
+MSG-10072,NONE,routine,next_visit,The estimated range drops faster than expected on highway trips.,routine,next_visit,True,False,False
+MSG-10073,ESP_w003,safety_urgent,safety_callback,The ESP_w003 stability control light came on while turning.,safety_urgent,safety_callback,True,False,False
+MSG-10074,NONE,routine,next_visit,There is a suspension thump from the front end over expansion joints.,routine,next_visit,True,False,False
+MSG-10075,WIP_w001,routine,next_visit,The driver side wiper streaks and grinds when parking.,routine,next_visit,True,False,False
+MSG-10076,NONE,safety_urgent,safety_callback,The brake pedal is sinking and shudders when slowing down.,safety_urgent,safety_callback,True,False,False
+MSG-10077,HVAC_w003,routine,next_visit,The cabin takes ages to warm up and the fan speed drops.,routine,next_visit,True,False,False
+MSG-10078,UI_a004,routine,remote_support,The touchscreen reboots every time the car starts charging.,routine,remote_support,True,False,False
+MSG-10079,ESP_w003,safety_urgent,safety_callback,The ESP_w003 stability warning flickers and the steering feels loose.,safety_urgent,safety_callback,True,False,False
+MSG-10080,NONE,routine,next_visit,The charge port door will not latch closed after plugging in.,routine,next_visit,True,False,False
+MSG-10081,NONE,routine,next_visit,A rattle from the rear seat area over bumps.,routine,next_visit,True,False,False
+MSG-10082,BRK_w003,safety_urgent,safety_callback,A brake warning and soft brake pedal (code BRK_w003).,safety_urgent,safety_callback,True,False,False
+MSG-10083,NONE,safety_urgent,safety_callback,The car pulling to one side when braking.,safety_urgent,safety_callback,True,False,False
+MSG-10084,NONE,routine,next_visit,Tyre hum at highway speed.,routine,next_visit,True,False,False
+MSG-10085,CP_a004,routine,next_visit,A charge port latch that sticks and needs a second press.,routine,next_visit,True,False,False
+MSG-10086,NONE,routine,next_visit,An overnight drop in estimated range.,routine,next_visit,True,False,False
+MSG-10087,ABS_w002,safety_urgent,safety_callback,An ABS warning with wheels locking on wet roads (code ABS_w002).,safety_urgent,safety_callback,True,False,False
+MSG-10088,NONE,routine,next_visit,A clunk from the rear boot area over speed bumps.,routine,next_visit,True,False,False
+MSG-10089,WIP_w001,routine,next_visit,A wiper grinding when parked but still wiping.,routine,next_visit,True,False,False
+MSG-10090,HVAC_w003,routine,next_visit,A burnt smell from the heater at start-up while heat works.,routine,next_visit,True,False,False
+MSG-10091,NONE,safety_urgent,safety_callback,The car pulling to one side when braking.,safety_urgent,safety_callback,True,False,False
+MSG-10092,NONE,routine,remote_support,A phone key that takes multiple attempts to unlock the car.,routine,remote_support,True,False,False
+MSG-10093,BRK_a001,safety_urgent,safety_callback,A brake fluid level warning (code BRK_a001).,safety_urgent,safety_callback,True,False,False
+MSG-10094,UI_a004,routine,remote_support,Owner app login failures.,routine,remote_support,True,False,False
+MSG-10095,NONE,routine,next_visit,A clunk from the front suspension over potholes and speed bumps.,routine,next_visit,True,False,False
+MSG-10096,ESP_w003,safety_urgent,safety_callback,An ESP/traction warning on wet roads (code ESP_w003).,safety_urgent,safety_callback,True,False,False
+MSG-10097,NONE,routine,next_visit,A cabin fan rattling at the highest setting.,routine,next_visit,True,False,False
+MSG-10098,CP_a004,routine,next_visit,A charge port flap that needs a second press to open.,routine,next_visit,True,False,False
+MSG-10099,NONE,routine,next_visit,A wiper grinding when parked and leaving a streak but still wiping.,routine,next_visit,True,False,False
+MSG-10100,BRK_w003,safety_urgent,safety_callback,A brake warning and sinking brake pedal (code BRK_w003).,safety_urgent,safety_callback,True,False,False
+MSG-10101,NONE,safety_urgent,safety_callback,"The car pulls to the left when braking at low speed, indicating a steering or brake pull issue.",safety_urgent,safety_callback,True,False,False
+MSG-10102,NONE,routine,next_visit,The charge port latch sticks when unplugging but charging still works.,routine,next_visit,True,False,False
+MSG-10103,ESP_w003,safety_urgent,safety_callback,ESP stability control fault code ESP_w003 is active and the customer is asking if it is safe to drive.,safety_urgent,safety_callback,True,False,False
+MSG-10104,HVAC_w003,soon,priority_booking,The cabin heater is blowing cold air instead of providing heat.,soon,priority_booking,True,False,False
+MSG-10105,NONE,routine,next_visit,"The estimated range dropped sharply overnight, suggesting a battery reporting issue.",routine,next_visit,True,False,False
+MSG-10106,UI_a004,routine,remote_support,The touchscreen froze and rebooted itself while driving.,routine,remote_support,True,False,False
+MSG-10107,EPAS_a191,safety_urgent,safety_callback,Power steering warning EPAS_a191 with a heavy steering wheel at parking speed.,safety_urgent,safety_callback,True,False,False
+MSG-10108,NONE,routine,next_visit,The driver-side wiper chatters across dry glass but still wipes.,routine,next_visit,True,False,False
+MSG-10109,NONE,routine,next_visit,A suspension clunk comes from the front right corner over bumps.,routine,next_visit,True,False,False
+MSG-10110,ABS_w002,safety_urgent,safety_callback,ABS warning code ABS_w002 is illuminated and the customer is avoiding driving the car.,safety_urgent,safety_callback,True,False,False
+MSG-10111,NONE,routine,remote_support,The phone key does not unlock the car from the pocket and requires the phone to be held against the handle.,routine,remote_support,True,False,False
+MSG-10112,NONE,safety_urgent,safety_callback,The brake pedal feels soft and requires extra pressure when stopping at lights.,safety_urgent,safety_callback,True,False,False
+MSG-10113,HVAC_w003,routine,next_visit,The heater fan whines briefly at start-up but the cabin warms normally.,routine,next_visit,True,False,False
+MSG-10114,BRK_w003,safety_urgent,safety_callback,Brake warning BRK_w003 with a grinding sensation when braking and the car has been stopped.,safety_urgent,safety_callback,True,False,False
+MSG-10115,NONE,soon,priority_booking,"The tyre pressure warning recurs every morning after topping up, indicating a possible sensor fault.",soon,priority_booking,True,False,False
+MSG-10116,WIP_w001,soon,priority_booking,The wipers stop mid-sweep during rain and require the car to be restarted.,soon,priority_booking,True,False,False
+MSG-10117,ESP_w003,safety_urgent,safety_callback,ESP stability warning with the car pulling to the right under light braking.,safety_urgent,safety_callback,True,False,False
+MSG-10118,NONE,routine,remote_support,The app repeatedly loops back to the sign-in screen after an update on multiple phones.,routine,remote_support,True,False,False
+MSG-10119,BRK_a001,safety_urgent,safety_callback,Brake warning BRK_a001 with a long brake pedal at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10120,NONE,routine,next_visit,A rattle comes from the rear seat area when driving over rough roads.,routine,next_visit,True,False,False
+MSG-10121,NONE,routine,next_visit,Charging stops at 80 percent and requires the schedule to be restarted.,routine,next_visit,True,False,False
+MSG-10122,NONE,routine,next_visit,Wiper motor hums but the wipers still move properly.,routine,next_visit,True,False,False
+MSG-10123,CP_a004,routine,next_visit,Charge port won't open from the screen despite being unlocked.,routine,next_visit,True,False,False
+MSG-10124,BRK_w003,safety_urgent,safety_callback,Brake warning light with a long pedal before braking (BRK_w003).,safety_urgent,safety_callback,True,False,False
+MSG-10125,WIP_w001,routine,next_visit,Driver wiper streaks and grinds when parking but still wipes.,routine,next_visit,True,False,False
+MSG-10126,NONE,routine,next_visit,Rear clunk over speed bumps with otherwise normal driving.,routine,next_visit,True,False,False
+MSG-10127,NONE,safety_urgent,safety_callback,Soft brake pedal with longer stopping distance.,safety_urgent,safety_callback,True,False,False
+MSG-10128,HVAC_w003,routine,next_visit,Cabin heat blows lukewarm and is slow to warm up.,soon,priority_booking,False,False,False
+MSG-10129,WIP_w001,soon,priority_booking,Rear wiper stops mid-sweep on the hatch glass.,soon,priority_booking,True,False,False
+MSG-10130,NONE,routine,next_visit,Charge port latch sticks and needs a second press to open.,routine,next_visit,True,False,False
+MSG-10131,UI_a004,routine,remote_support,Touchscreen reboots intermittently while driving.,routine,remote_support,True,False,False
+MSG-10132,NONE,safety_urgent,safety_callback,Car pulls to one side when slowing to a stop.,safety_urgent,safety_callback,True,False,False
+MSG-10133,WIP_w001,routine,next_visit,Wiper grinds when parking but still wipes.,routine,next_visit,True,False,False
+MSG-10134,NONE,routine,next_visit,Estimated range dropped sharply after a cold snap.,routine,next_visit,True,False,False
+MSG-10135,ABS_w002,safety_urgent,safety_callback,ABS warning light with a softer brake pedal (ABS_w002).,safety_urgent,safety_callback,True,False,False
+MSG-10136,NONE,routine,remote_support,Phone key intermittently fails to unlock the door.,routine,remote_support,True,False,False
+MSG-10137,HVAC_w003,routine,next_visit,Blower fan whines at max heat while heating otherwise works.,routine,next_visit,True,False,False
+MSG-10138,NONE,routine,next_visit,Ride feels bouncy over bumps and dips with normal brakes.,routine,next_visit,True,False,False
+MSG-10139,CP_a004,routine,next_visit,Charge port warning appears although charging still starts.,routine,next_visit,True,False,False
+MSG-10140,NONE,safety_urgent,safety_callback,Grinding feel in the brake pedal when stopping.,safety_urgent,safety_callback,True,False,False
+MSG-10141,NONE,routine,next_visit,Reduced highway range on an older battery needing inspection.,routine,next_visit,True,False,False
+MSG-10142,WIP_w001,routine,next_visit,Wiper blade streaking the windshield while still clearing the glass.,routine,next_visit,True,False,False
+MSG-10143,UI_a004,routine,remote_support,App login loop blocking access to phone key and charging screen.,routine,remote_support,True,False,False
+MSG-10144,ESP_w003,safety_urgent,safety_callback,ESP_w003 stability control warning on a wet road.,safety_urgent,safety_callback,True,False,False
+MSG-10145,NONE,routine,next_visit,Rattle from the rear seat area over rough roads.,routine,next_visit,True,False,False
+MSG-10146,HVAC_w003,routine,next_visit,Musty smell from cabin vents when the fan starts.,routine,next_visit,True,False,False
+MSG-10147,NONE,routine,next_visit,Driver seat heater stuck on and overheating.,routine,next_visit,True,False,False
+MSG-10148,NONE,routine,remote_support,Touchscreen profile and phone setup questions after delivery.,routine,remote_support,True,False,False
+MSG-10149,NONE,safety_urgent,safety_callback,"Soft, sinking brake pedal when stopping at lights.",safety_urgent,safety_callback,True,False,False
+MSG-10150,WIP_w001,routine,next_visit,Wiper arm clunking on return to park while still clearing glass.,routine,next_visit,True,False,False
+MSG-10151,ABS_w002,safety_urgent,safety_callback,ABS_w002 warning light illuminated.,safety_urgent,safety_callback,True,False,False
+MSG-10152,NONE,routine,next_visit,Front-end clunking over speed bumps and rough driveway.,routine,next_visit,True,False,False
+MSG-10153,NONE,safety_urgent,safety_callback,Steering pulling to one side when stopping.,safety_urgent,safety_callback,True,False,False
+MSG-10154,ESP_w003,safety_urgent,safety_callback,ESP_w003 stability control warning with tugging through corners.,safety_urgent,safety_callback,True,False,False
+MSG-10155,HVAC_w003,routine,next_visit,Cabin heater slow to warm up after a cold start.,routine,next_visit,True,False,False
+MSG-10156,UI_a004,routine,remote_support,Touchscreen rebooting repeatedly during commute.,routine,remote_support,True,False,False
+MSG-10157,BRK_w003,safety_urgent,safety_callback,"BRK_w003 brake warning with softer, longer brake pedal.",safety_urgent,safety_callback,True,False,False
+MSG-10158,CP_a004,routine,next_visit,Charge port latch sticking and cable hard to remove.,routine,next_visit,True,False,False
+MSG-10159,NONE,routine,next_visit,Rattle from the dashboard on rough roads.,routine,next_visit,True,False,False
+MSG-10160,EPAS_w202,safety_urgent,safety_callback,EPAS_w202 power steering warning with heavy steering at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10161,NONE,routine,next_visit,Range estimate has dropped significantly in cold weather despite unchanged driving and charging habits.,routine,next_visit,True,False,False
+MSG-10162,WIP_w001,routine,next_visit,Driver side wiper streaks across the windscreen but still parks and wipes.,routine,next_visit,True,False,False
+MSG-10163,ABS_w002,safety_urgent,safety_callback,ABS and brake warning lights with a soft brake pedal and the car pulling to one side.,safety_urgent,safety_callback,True,False,False
+MSG-10164,CP_a004,routine,next_visit,Charge port fails to latch on the first attempt while charging still works.,routine,next_visit,True,False,False
+MSG-10165,NONE,safety_urgent,safety_callback,Grinding noise from the front wheels when stopped at lights.,safety_urgent,safety_callback,True,False,False
+MSG-10166,NONE,routine,next_visit,Driver side wiper grinds when parking and streaks the windscreen but still operates.,routine,next_visit,True,False,False
+MSG-10167,HVAC_w003,routine,next_visit,Cabin heat is slow to warm up on cold mornings but eventually reaches temperature.,routine,next_visit,True,False,False
+MSG-10168,UI_a004,routine,remote_support,App repeatedly requests login every morning despite correct password.,routine,remote_support,True,False,False
+MSG-10169,BRK_a001,safety_urgent,safety_callback,Brake pedal feels soft and sinks further than normal with a brake assist message.,safety_urgent,safety_callback,True,False,False
+MSG-10170,NONE,safety_urgent,safety_callback,"Car pulls to one side on a straight, flat road with off-centre steering.",safety_urgent,safety_callback,True,False,False
+MSG-10171,NONE,routine,next_visit,Rear suspension clunks over potholes and speed bumps.,routine,next_visit,True,False,False
+MSG-10172,EPAS_a191,safety_urgent,safety_callback,Steering assist warning illuminated on the dashboard.,safety_urgent,safety_callback,True,False,False
+MSG-10173,NONE,routine,next_visit,Charging stopped early on the home wall connector without a warning.,routine,next_visit,True,False,False
+MSG-10174,NONE,safety_urgent,safety_callback,Brake pedal sinks slowly and the car pulls to one side when braking.,safety_urgent,safety_callback,True,False,False
+MSG-10175,HVAC_w003,routine,next_visit,Cabin heat only blows lukewarm at highway speeds despite maximum temperature setting.,soon,priority_booking,False,False,False
+MSG-10176,NONE,safety_urgent,safety_callback,Grinding noise when stopping and a soft brake pedal at the bottom.,safety_urgent,safety_callback,True,False,False
+MSG-10177,UI_a004,routine,remote_support,Phone key will not pair with the car after a software update.,routine,remote_support,True,False,False
+MSG-10178,ESP_w003,safety_urgent,safety_callback,ESP stability warning lit on the motorway with unsettled braking.,safety_urgent,safety_callback,True,False,False
+MSG-10179,CP_a004,routine,next_visit,Charge port flap sticks half open but charging still works.,routine,next_visit,True,False,False
+MSG-10180,BRK_w003,safety_urgent,safety_callback,"Brake warning light with the car pulling to one side when braking, and the customer asks if it is safe to drive.",safety_urgent,safety_callback,True,False,False
+MSG-10181,NONE,routine,next_visit,A rear suspension clunk over bumps with otherwise normal handling.,routine,next_visit,True,False,False
+MSG-10182,NONE,routine,next_visit,A wiper arm grinding when it parks while still clearing the screen.,routine,next_visit,True,False,False
+MSG-10183,ABS_w002,safety_urgent,safety_callback,An ABS warning with brake pedal pulsing under braking.,safety_urgent,safety_callback,True,False,False
+MSG-10184,HVAC_w003,routine,next_visit,A front defrost that is slow to clear the windscreen but eventually clears.,soon,priority_booking,False,False,False
+MSG-10185,NONE,safety_urgent,safety_callback,Heavy steering that pulls to one side at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10186,NONE,routine,next_visit,An unexpected overnight drop in range with normal charging.,routine,next_visit,True,False,False
+MSG-10187,EPAS_w202,safety_urgent,safety_callback,An EPAS steering warning with stiff steering at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10188,UI_a004,routine,remote_support,A touchscreen that rebooted once during a drive and recovered.,routine,remote_support,True,False,False
+MSG-10189,NONE,safety_urgent,safety_callback,A spongy brake pedal that sinks further than normal after a long drive.,safety_urgent,safety_callback,True,False,False
+MSG-10190,WIP_w001,routine,next_visit,A driver-side wiper streaking across the view but still wiping.,routine,next_visit,True,False,False
+MSG-10191,CP_a004,routine,next_visit,A charge port latch that will not release while charging still works.,routine,next_visit,True,False,False
+MSG-10192,NONE,routine,next_visit,A front-left suspension clunk during tight turns with normal brakes and steering.,routine,next_visit,True,False,False
+MSG-10193,ESP_w003,safety_urgent,safety_callback,An ESP stability control warning after stopping on a wet road.,safety_urgent,safety_callback,True,False,False
+MSG-10194,NONE,routine,next_visit,A reduced range estimate at the same battery level with normal charging.,routine,next_visit,True,False,False
+MSG-10195,NONE,routine,next_visit,A faint hum from under the car above 60 km/h with normal driving.,routine,next_visit,True,False,False
+MSG-10196,BRK_a001,safety_urgent,safety_callback,A brake warning with the pedal going almost to the floor and longer stopping distance.,safety_urgent,safety_callback,True,False,False
+MSG-10197,HVAC_w003,soon,priority_booking,Cabin heat that cuts out and blows cold at low speed.,soon,priority_booking,True,False,False
+MSG-10198,NONE,safety_urgent,safety_callback,A brake pedal sinking further than normal with a shudder when slowing.,safety_urgent,safety_callback,True,False,False
+MSG-10199,WIP_w001,routine,next_visit,A driver-side wiper streaking across the eyeline and grinding when it parks.,routine,next_visit,True,False,False
+MSG-10200,ABS_w002,safety_urgent,safety_callback,"An ABS warning with the car pulling left under braking, message cut off mid-sentence.",safety_urgent,safety_callback,True,False,False
+MSG-10201,HVAC_w003,routine,next_visit,Cabin heat is slow to warm up but eventually reaches temperature.,routine,next_visit,True,False,False
+MSG-10202,BRK_w003,safety_urgent,safety_callback,Brake warning with a spongy brake pedal and the vehicle has been parked.,safety_urgent,safety_callback,True,False,False
+MSG-10203,UI_a004,routine,remote_support,Touchscreen reboots every few minutes while driving.,routine,remote_support,True,False,False
+MSG-10204,NONE,routine,next_visit,Clunking noise near the rear right wheel when driving over bumps.,routine,next_visit,True,False,False
+MSG-10205,EPAS_w202,safety_urgent,safety_callback,Heavy steering at low speed with a steering warning showing.,safety_urgent,safety_callback,True,False,False
+MSG-10206,NONE,routine,next_visit,Reduced range in cold weather.,routine,next_visit,True,False,False
+MSG-10207,CP_a004,routine,next_visit,Charge port door needs a second press to latch but charging still works.,routine,next_visit,True,False,False
+MSG-10208,NONE,safety_urgent,safety_callback,Grinding through the brake pedal when stopping and the car pulls to one side.,safety_urgent,safety_callback,True,False,False
+MSG-10209,NONE,routine,remote_support,Phone key will not pair with the car.,routine,remote_support,True,False,False
+MSG-10210,WIP_w001,routine,next_visit,Wiper arm grinds when parking but still wipes.,routine,next_visit,True,False,False
+MSG-10211,ESP_w003,safety_urgent,safety_callback,Stability control warning and the car slid on a wet road.,safety_urgent,safety_callback,True,False,False
+MSG-10212,NONE,routine,next_visit,Door chime sounds intermittently with all doors closed.,routine,next_visit,True,False,False
+MSG-10213,UI_a004,soon,priority_booking,Rear camera image freezes when reversing.,soon,priority_booking,True,False,False
+MSG-10214,NONE,routine,next_visit,Rattle from the roof area at highway speed.,routine,next_visit,True,False,False
+MSG-10215,HVAC_w003,soon,priority_booking,Rear seat heater will not switch on.,routine,next_visit,False,False,False
+MSG-10216,CP_a004,routine,next_visit,Charge flap sticks open and needs a second push to close.,routine,next_visit,True,False,False
+MSG-10217,NONE,routine,remote_support,App repeatedly asks for a password despite being signed in.,routine,remote_support,True,False,False
+MSG-10218,ABS_w002,safety_urgent,safety_callback,ABS warning with a soft brake pedal when braking.,safety_urgent,safety_callback,True,False,False
+MSG-10219,NONE,safety_urgent,safety_callback,Steering wheel shimmy or wobble at highway speed.,safety_urgent,safety_callback,True,False,False
+MSG-10220,NONE,routine,next_visit,Screen brightness flickers at night.,routine,next_visit,True,False,False
+MSG-10221,WIP_w001,routine,next_visit,Washer nozzle spraying onto the bonnet instead of the windscreen.,routine,next_visit,True,False,False
+MSG-10222,NONE,soon,priority_booking,Tyre pressure warning light indicating one wheel is low.,soon,priority_booking,True,False,False
+MSG-10223,NONE,safety_urgent,safety_callback,Soft and sinking brake pedal with delayed bite.,safety_urgent,safety_callback,True,False,False
+MSG-10224,BRK_w003,safety_urgent,safety_callback,Brake warning code BRK_w003 and customer asking whether it is safe to keep driving.,safety_urgent,safety_callback,True,False,False
+MSG-10225,NONE,routine,next_visit,Wiper arm grinding at park position while still clearing the windscreen.,routine,next_visit,True,False,False
+MSG-10226,NONE,safety_urgent,safety_callback,Car pulling to one side when stopping and a cut-off note asking whether it is safe to drive.,safety_urgent,safety_callback,True,False,False
+MSG-10227,HVAC_w003,routine,next_visit,Cabin heater slow to warm up but eventually reaches temperature.,routine,next_visit,True,False,False
+MSG-10228,CP_a004,routine,next_visit,Charge port will not latch while charging still works.,routine,next_visit,True,False,False
+MSG-10229,ABS_w002,safety_urgent,safety_callback,ABS warning code ABS_w002.,safety_urgent,safety_callback,True,False,False
+MSG-10230,NONE,safety_urgent,safety_callback,Heavy and stiff steering at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10231,UI_a004,routine,remote_support,Touchscreen rebooting intermittently while driving.,routine,remote_support,True,False,False
+MSG-10232,NONE,routine,next_visit,Reduced estimated range in cold weather with no faults.,routine,next_visit,True,False,False
+MSG-10233,EPAS_w202,safety_urgent,safety_callback,Steering assist warning code EPAS_w202.,safety_urgent,safety_callback,True,False,False
+MSG-10234,BRK_a001,safety_urgent,safety_callback,Brake fault code BRK_a001 with spongy pedal and reduced braking.,safety_urgent,safety_callback,True,False,False
+MSG-10235,WIP_w001,soon,priority_booking,Wiper not clearing the windscreen properly.,soon,priority_booking,True,False,False
+MSG-10236,NONE,routine,next_visit,Rear suspension clunk over speed bumps.,routine,next_visit,True,False,False
+MSG-10237,ESP_w003,safety_urgent,safety_callback,Stability control warning code ESP_w003.,safety_urgent,safety_callback,True,False,False
+MSG-10238,NONE,routine,next_visit,Slow home charging with no fault codes.,routine,next_visit,True,False,False
+MSG-10239,NONE,routine,remote_support,Phone key intermittently failing to unlock the car.,routine,remote_support,True,False,False
+MSG-10240,NONE,safety_urgent,safety_callback,Brake pedal grabbing unevenly with car pulling to one side when stopping.,safety_urgent,safety_callback,True,False,False
+MSG-10241,NONE,routine,next_visit,Rear wheel bearings are humming at highway speed.,routine,next_visit,True,False,False
+MSG-10242,WIP_w001,routine,next_visit,Driver-side wiper arm grinds when parking.,routine,next_visit,True,False,False
+MSG-10243,ABS_w002,safety_urgent,safety_callback,ABS warning code ABS_w002 with altered brake pedal feel.,safety_urgent,safety_callback,True,False,False
+MSG-10244,HVAC_w003,soon,priority_booking,Cabin heat stays cool despite the fan running at full speed.,soon,priority_booking,True,False,False
+MSG-10245,NONE,safety_urgent,safety_callback,Car pulls to the right when braking hard.,safety_urgent,safety_callback,True,False,False
+MSG-10246,UI_a004,routine,remote_support,App login loop is logging the user out and disabling the phone key.,routine,remote_support,True,False,False
+MSG-10247,EPAS_a191,safety_urgent,safety_callback,EPAS_a191 steering assist warning causes the wheel to jerk at low speed.,safety_urgent,safety_callback,True,False,False
+MSG-10248,NONE,safety_urgent,safety_callback,Brake pedal is sinking and grabs late before biting.,safety_urgent,safety_callback,True,False,False
+MSG-10249,BRK_w003,safety_urgent,safety_callback,Brake warning light BRK_w003 is on and the customer asks whether it is safe to drive.,safety_urgent,safety_callback,True,False,False
+MSG-10250,NONE,routine,next_visit,Rear end rattles over bumps after sitting in the rain.,routine,next_visit,True,False,False
+MSG-10251,CP_a004,soon,priority_booking,Charge port will not latch and charging stops after a few minutes.,soon,priority_booking,True,False,False
+MSG-10252,NONE,routine,next_visit,Wiper arm grinds when parking and the blade streaks the glass.,routine,next_visit,True,False,False
+MSG-10253,NONE,safety_urgent,safety_callback,Car tugs left and steering feels heavy when stopping.,safety_urgent,safety_callback,True,False,False
+MSG-10254,HVAC_w003,routine,next_visit,Cabin heater blows only lukewarm air on full heat.,soon,priority_booking,False,False,False
+MSG-10255,UI_a004,routine,remote_support,Touchscreen reboots while driving and loses map and music.,routine,remote_support,True,False,False
+MSG-10256,WIP_w001,soon,priority_booking,Front wipers stop mid-sweep in heavy rain.,soon,priority_booking,True,False,False
+MSG-10257,NONE,routine,remote_support,Phone key fails on the first tap and works on the second.,routine,remote_support,True,False,False
+MSG-10258,NONE,routine,remote_support,App loops back to the sign-in screen after the update.,routine,remote_support,True,False,False
+MSG-10259,ABS_w002,safety_urgent,safety_callback,ABS_w002 came on after a hard stop with a long brake pedal and the car is parked.,safety_urgent,safety_callback,True,False,False
+MSG-10260,NONE,routine,next_visit,Faint front clunk occurs over speed bumps at low speed.,routine,next_visit,True,False,False
+MSG-10261,NONE,routine,next_visit,The vehicle range has dropped about 15 percent in cold weather with no fault codes and normal charging.,routine,next_visit,True,False,False
+MSG-10262,ESP_w003,safety_urgent,safety_callback,The ESP stability control warning is active and the car felt loose or sliding on a wet bend.,safety_urgent,safety_callback,True,False,False
+MSG-10263,NONE,routine,next_visit,The cabin fan makes noise when the heat is on high and gets louder after driving.,routine,next_visit,True,False,False
+MSG-10264,HVAC_w003,routine,next_visit,The heater fan rattles while driving slowly even though the cabin still warms up fine.,routine,next_visit,True,False,False
+MSG-10265,EPAS_a191,safety_urgent,safety_callback,The EPAS system is warning and the steering is heavy and stiff with the car pulling to the right.,safety_urgent,safety_callback,True,False,False
+MSG-10266,NONE,routine,next_visit,The wiper blades squeak and skip across dry glass but still wipe.,routine,next_visit,True,False,False
+MSG-10267,NONE,soon,priority_booking,A sweet coolant smell comes from the front vents when the heat is on.,soon,priority_booking,True,False,False
+MSG-10268,NONE,routine,next_visit,The ride feels bouncy and keeps rocking after bumps since hitting a pothole.,routine,next_visit,True,False,False
+MSG-10269,NONE,safety_urgent,safety_callback,The car pulls to the right when braking downhill.,safety_urgent,safety_callback,True,False,False
+MSG-10270,CP_a004,routine,next_visit,The charge port flap is stuck half open and will not latch closed.,routine,next_visit,True,False,False
+MSG-10271,UI_a004,routine,remote_support,The app shows the car offline and the touchscreen has rebooted twice after an update.,routine,remote_support,True,False,False
+MSG-10272,NONE,routine,next_visit,The washer fluid reservoir empties within a few days with no warning code.,routine,next_visit,True,False,False
+MSG-10273,HVAC_w003,routine,next_visit,The rear passenger-side heat is blowing cold while the front cabin heat works fine.,soon,priority_booking,False,False,False
+MSG-10274,NONE,safety_urgent,safety_callback,The car tugs to the left when braking to a stop and the note is cut off mid-sentence.,safety_urgent,safety_callback,True,False,False
+MSG-10275,UI_a004,routine,remote_support,"The touchscreen keeps rebooting randomly while driving, dropping music and navigation.",routine,remote_support,True,False,False
+MSG-10276,BRK_w003,safety_urgent,safety_callback,The brake system warning light is on and the brake system needs checking.,safety_urgent,safety_callback,True,False,False
+MSG-10277,NONE,routine,next_visit,The range has dropped about 15 percent with no warning codes on the same commute.,routine,next_visit,True,False,False
+MSG-10278,NONE,safety_urgent,safety_callback,The steering wheel wobbles and feels loose at highway speed with no dashboard code.,safety_urgent,safety_callback,True,False,False
+MSG-10279,WIP_w001,soon,priority_booking,The driver wiper is stuck upright after a car wash and will not return to park.,routine,next_visit,False,False,False
+MSG-10280,ABS_w002,safety_urgent,safety_callback,The ABS warning light is on and the brake pedal went soft during a stop.,safety_urgent,safety_callback,True,False,False
+MSG-10281,HVAC_w003,routine,next_visit,The rear cabin heater is slow to warm up.,routine,next_visit,True,False,False
+MSG-10282,EPAS_a191,safety_urgent,safety_callback,Heavy steering with an EPAS assist warning.,safety_urgent,safety_callback,True,False,False
+MSG-10283,NONE,routine,next_visit,A rear suspension clunk over speed bumps.,routine,next_visit,True,False,False
+MSG-10284,ESP_w003,safety_urgent,safety_callback,ESP stability warning code ESP_w003.,safety_urgent,safety_callback,True,False,False
+MSG-10285,UI_a004,routine,remote_support,The app login keeps failing and returns to the sign-in screen.,routine,remote_support,True,False,False
+MSG-10286,NONE,safety_urgent,safety_callback,The brake pedal goes long before it bites.,safety_urgent,safety_callback,True,False,False
+MSG-10287,NONE,routine,remote_support,The phone key is slow to unlock the doors.,routine,remote_support,True,False,False
+MSG-10288,WIP_w001,routine,next_visit,The driver-side wiper arm grinds when parking.,routine,next_visit,True,False,False
+MSG-10289,BRK_a001,safety_urgent,safety_callback,A brake alert code BRK_a001 is displayed and the customer is asking if it is safe to drive.,safety_urgent,safety_callback,True,False,False
+MSG-10290,NONE,routine,next_visit,Charging is slower than expected and tapers early at a supercharger.,routine,next_visit,True,False,False
+MSG-10291,NONE,routine,next_visit,The cabin fan rattles at the highest setting.,routine,next_visit,True,False,False
+MSG-10292,NONE,safety_urgent,safety_callback,The car pulls to one side when braking hard.,safety_urgent,safety_callback,True,False,False
+MSG-10293,NONE,routine,next_visit,Driver seat memory resets after the key is removed.,routine,next_visit,True,False,False
+MSG-10294,UI_a004,routine,remote_support,The center screen reboots while driving.,routine,remote_support,True,False,False
+MSG-10295,NONE,routine,next_visit,A faint rattle comes from the back seat area over bumps.,routine,next_visit,True,False,False
+MSG-10296,NONE,safety_urgent,safety_callback,The brake pedal feels soft and sinks before it bites.,safety_urgent,safety_callback,True,False,False
+MSG-10297,ABS_w002,safety_urgent,safety_callback,ABS warning code ABS_w002 is on and the note was cut off while describing the brake pedal.,safety_urgent,safety_callback,True,False,False
+MSG-10298,WIP_w001,routine,next_visit,The driver-side wiper streaks across the eyeline.,routine,next_visit,True,False,False
+MSG-10299,NONE,safety_urgent,safety_callback,The car tugs to the left when stopping at lights.,safety_urgent,safety_callback,True,False,False
+MSG-10300,HVAC_w003,routine,next_visit,The cabin heating is slow to warm up on cold mornings.,routine,next_visit,True,False,False

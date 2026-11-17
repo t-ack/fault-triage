@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10201",
+    "MSG-10202",
+    "MSG-10203",
+    "MSG-10204",
+    "MSG-10205",
+    "MSG-10206",
+    "MSG-10207",
+    "MSG-10208",
+    "MSG-10209",
+    "MSG-10210",
+    "MSG-10211",
+    "MSG-10212",
+    "MSG-10213",
+    "MSG-10214",
+    "MSG-10215",
+    "MSG-10216",
+    "MSG-10217",
+    "MSG-10218",
+    "MSG-10219",
+    "MSG-10220"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10201\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Cabin heat is slow to warm up but eventually reaches temperature.\"}, {\"message_id\": \"MSG-10202\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Brake warning with a spongy brake pedal and the vehicle has been parked.\"}, {\"message_id\": \"MSG-10203\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Touchscreen reboots every few minutes while driving.\"}, {\"message_id\": \"MSG-10204\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Clunking noise near the rear right wheel when driving over bumps.\"}, {\"message_id\": \"MSG-10205\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Heavy steering at low speed with a steering warning showing.\"}, {\"message_id\": \"MSG-10206\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Reduced range in cold weather.\"}, {\"message_id\": \"MSG-10207\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge port door needs a second press to latch but charging still works.\"}, {\"message_id\": \"MSG-10208\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Grinding through the brake pedal when stopping and the car pulls to one side.\"}, {\"message_id\": \"MSG-10209\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Phone key will not pair with the car.\"}, {\"message_id\": \"MSG-10210\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Wiper arm grinds when parking but still wipes.\"}, {\"message_id\": \"MSG-10211\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Stability control warning and the car slid on a wet road.\"}, {\"message_id\": \"MSG-10212\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Door chime sounds intermittently with all doors closed.\"}, {\"message_id\": \"MSG-10213\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Rear camera image freezes when reversing.\"}, {\"message_id\": \"MSG-10214\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Rattle from the roof area at highway speed.\"}, {\"message_id\": \"MSG-10215\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"Rear seat heater will not switch on.\"}, {\"message_id\": \"MSG-10216\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charge flap sticks open and needs a second push to close.\"}, {\"message_id\": \"MSG-10217\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"App repeatedly asks for a password despite being signed in.\"}, {\"message_id\": \"MSG-10218\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning with a soft brake pedal when braking.\"}, {\"message_id\": \"MSG-10219\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Steering wheel shimmy or wobble at highway speed.\"}, {\"message_id\": \"MSG-10220\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Screen brightness flickers at night.\"}]}"
+}

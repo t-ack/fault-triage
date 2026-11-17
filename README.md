@@ -28,6 +28,8 @@ The rules engine doesn't need this. It's only for the LLM stage and the live smo
    ```
 4. Run the tests: `pytest -v`. With a key set, `tests/test_llm_smoke.py` sends a one-line prompt and checks that a reply comes back. Without a key it is skipped and the other tests still run.
 
+To classify the batch with the LLM: `python scripts/classify_batch.py` (add `--limit 20` for a quick trial). Raw replies are saved to `results/raw/` and reused on a rerun unless the prompt, model or batch changes.
+
 `.env` is in `.gitignore`, so your key stays out of git. In code, `fault_triage.llm_client.get_client()` returns an OpenAI client pointed at `https://openrouter.ai/api/v1`, and `get_model()` returns the model slug. Both raise `OpenRouterConfigError` if a value is missing or still the placeholder.
 
 ## Tags and fix paths
@@ -76,6 +78,46 @@ All 60 rows with `hand_checked_safety_fault` TRUE come out `safety_urgent`. The 
 Rules that fired: `soft_or_sinking_brake_pedal`.
 
 The alert code was `NONE` and the customer wrote politely with no sense of alarm, so a code-only check sends this to a routine booking. But a brake pedal that goes soft at stops is a braking failure, which can mean a hydraulic leak or air in the lines. The hidden-safety rule picks up "pedal goes soft when stopping" and raises the message to `safety_urgent`, so someone calls the customer within 2 hours.
+
+## LLM stage results
+
+`scripts/classify_batch.py` sends all 300 messages to the LLM in 15 batches of 20 and writes `results/llm_triage.csv`. Each message goes with only its ID, alert code, subject and text, with customer names removed from the text. Every reply is checked against the same tag and fix path rules as `TriageResult`, and safety alert codes are forced to `safety_urgent` in code whatever the model says.
+
+- Model: `nvidia/nemotron-3.5-super-vl:free` through OpenRouter, temperature 0
+- Requests: 15, every batch valid on the first attempt, 0 `llm_failed`
+
+| LLM tag | Count |
+|---|---|
+| safety_urgent | 105 |
+| soon | 17 |
+| routine | 178 |
+
+LLM tag (rows) against rules tag (columns):
+
+| | safety_urgent | soon | routine |
+|---|---|---|---|
+| **safety_urgent** | 105 | 0 | 0 |
+| **soon** | 0 | 15 | 2 |
+| **routine** | 0 | 6 | 172 |
+
+- Critical misses: **0 of 60** hand-checked safety faults tagged below `safety_urgent`
+- `floor_applied` fired: **0** times (the model tagged every safety-coded message `safety_urgent` by itself)
+- The LLM and the rules agree on 292 of 300 tags, including all 105 `safety_urgent` messages
+
+Disagreements, and which side I think is right:
+
+| ID | LLM | Rules | Right | Why |
+|---|---|---|---|---|
+| MSG-10040 | routine | soon | LLM | Defrost is slow but does clear, and the prompt says only "won't clear" counts. The rules treat slow-to-clear as failing. |
+| MSG-10184 | routine | soon | LLM | Same as MSG-10040: slow to clear, but it clears. |
+| MSG-10128 | routine | soon | LLM (close call) | Lukewarm air after ten minutes is weak heat, not blowing cold, cutting out or not switching on. |
+| MSG-10175 | routine | soon | Rules | Heat stays lukewarm at highway speed even on full. That's a failure under load, not a slow warm-up. |
+| MSG-10254 | routine | soon | Rules | Lukewarm on full heat with an HVAC warning lit means the heater is failing. |
+| MSG-10273 | routine | soon | Rules | "Rear heat is blowing cold" matches "blows cold" word for word. Working front heat doesn't change that. |
+| MSG-10215 | soon | routine | LLM | A heater that "will not switch on" matches the prompt. The rules leave seat heaters out as a comfort item, which was my call, not the spec. |
+| MSG-10279 | soon | routine | LLM | A wiper stuck upright can't clear the glass at all. The rules only look for "mid-sweep" or "not clearing" wording. |
+
+Overall: 5 go to the LLM and 3 to the rules. All 8 are about heat, defrost or wipers, and none involves safety.
 
 ## Judgment calls in the rules
 

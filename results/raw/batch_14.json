@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10261",
+    "MSG-10262",
+    "MSG-10263",
+    "MSG-10264",
+    "MSG-10265",
+    "MSG-10266",
+    "MSG-10267",
+    "MSG-10268",
+    "MSG-10269",
+    "MSG-10270",
+    "MSG-10271",
+    "MSG-10272",
+    "MSG-10273",
+    "MSG-10274",
+    "MSG-10275",
+    "MSG-10276",
+    "MSG-10277",
+    "MSG-10278",
+    "MSG-10279",
+    "MSG-10280"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10261\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The vehicle range has dropped about 15 percent in cold weather with no fault codes and normal charging.\"}, {\"message_id\": \"MSG-10262\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ESP stability control warning is active and the car felt loose or sliding on a wet bend.\"}, {\"message_id\": \"MSG-10263\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin fan makes noise when the heat is on high and gets louder after driving.\"}, {\"message_id\": \"MSG-10264\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The heater fan rattles while driving slowly even though the cabin still warms up fine.\"}, {\"message_id\": \"MSG-10265\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The EPAS system is warning and the steering is heavy and stiff with the car pulling to the right.\"}, {\"message_id\": \"MSG-10266\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The wiper blades squeak and skip across dry glass but still wipe.\"}, {\"message_id\": \"MSG-10267\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"A sweet coolant smell comes from the front vents when the heat is on.\"}, {\"message_id\": \"MSG-10268\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The ride feels bouncy and keeps rocking after bumps since hitting a pothole.\"}, {\"message_id\": \"MSG-10269\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulls to the right when braking downhill.\"}, {\"message_id\": \"MSG-10270\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The charge port flap is stuck half open and will not latch closed.\"}, {\"message_id\": \"MSG-10271\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app shows the car offline and the touchscreen has rebooted twice after an update.\"}, {\"message_id\": \"MSG-10272\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The washer fluid reservoir empties within a few days with no warning code.\"}, {\"message_id\": \"MSG-10273\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rear passenger-side heat is blowing cold while the front cabin heat works fine.\"}, {\"message_id\": \"MSG-10274\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car tugs to the left when braking to a stop and the note is cut off mid-sentence.\"}, {\"message_id\": \"MSG-10275\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The touchscreen keeps rebooting randomly while driving, dropping music and navigation.\"}, {\"message_id\": \"MSG-10276\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake system warning light is on and the brake system needs checking.\"}, {\"message_id\": \"MSG-10277\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The range has dropped about 15 percent with no warning codes on the same commute.\"}, {\"message_id\": \"MSG-10278\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The steering wheel wobbles and feels loose at highway speed with no dashboard code.\"}, {\"message_id\": \"MSG-10279\", \"tag\": \"soon\", \"fix_path\": \"priority_booking\", \"reason\": \"The driver wiper is stuck upright after a car wash and will not return to park.\"}, {\"message_id\": \"MSG-10280\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The ABS warning light is on and the brake pedal went soft during a stop.\"}]}"
+}

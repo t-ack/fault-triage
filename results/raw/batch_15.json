@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10281",
+    "MSG-10282",
+    "MSG-10283",
+    "MSG-10284",
+    "MSG-10285",
+    "MSG-10286",
+    "MSG-10287",
+    "MSG-10288",
+    "MSG-10289",
+    "MSG-10290",
+    "MSG-10291",
+    "MSG-10292",
+    "MSG-10293",
+    "MSG-10294",
+    "MSG-10295",
+    "MSG-10296",
+    "MSG-10297",
+    "MSG-10298",
+    "MSG-10299",
+    "MSG-10300"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10281\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The rear cabin heater is slow to warm up.\"}, {\"message_id\": \"MSG-10282\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"Heavy steering with an EPAS assist warning.\"}, {\"message_id\": \"MSG-10283\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A rear suspension clunk over speed bumps.\"}, {\"message_id\": \"MSG-10284\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ESP stability warning code ESP_w003.\"}, {\"message_id\": \"MSG-10285\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The app login keeps failing and returns to the sign-in screen.\"}, {\"message_id\": \"MSG-10286\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal goes long before it bites.\"}, {\"message_id\": \"MSG-10287\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The phone key is slow to unlock the doors.\"}, {\"message_id\": \"MSG-10288\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper arm grinds when parking.\"}, {\"message_id\": \"MSG-10289\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake alert code BRK_a001 is displayed and the customer is asking if it is safe to drive.\"}, {\"message_id\": \"MSG-10290\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Charging is slower than expected and tapers early at a supercharger.\"}, {\"message_id\": \"MSG-10291\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin fan rattles at the highest setting.\"}, {\"message_id\": \"MSG-10292\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulls to one side when braking hard.\"}, {\"message_id\": \"MSG-10293\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Driver seat memory resets after the key is removed.\"}, {\"message_id\": \"MSG-10294\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"The center screen reboots while driving.\"}, {\"message_id\": \"MSG-10295\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A faint rattle comes from the back seat area over bumps.\"}, {\"message_id\": \"MSG-10296\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The brake pedal feels soft and sinks before it bites.\"}, {\"message_id\": \"MSG-10297\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"ABS warning code ABS_w002 is on and the note was cut off while describing the brake pedal.\"}, {\"message_id\": \"MSG-10298\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The driver-side wiper streaks across the eyeline.\"}, {\"message_id\": \"MSG-10299\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car tugs to the left when stopping at lights.\"}, {\"message_id\": \"MSG-10300\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"The cabin heating is slow to warm up on cold mornings.\"}]}"
+}

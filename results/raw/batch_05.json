@@ -1,0 +1,27 @@
+{
+  "cache_key": "cc18e7d0b1ea628f",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "message_ids": [
+    "MSG-10081",
+    "MSG-10082",
+    "MSG-10083",
+    "MSG-10084",
+    "MSG-10085",
+    "MSG-10086",
+    "MSG-10087",
+    "MSG-10088",
+    "MSG-10089",
+    "MSG-10090",
+    "MSG-10091",
+    "MSG-10092",
+    "MSG-10093",
+    "MSG-10094",
+    "MSG-10095",
+    "MSG-10096",
+    "MSG-10097",
+    "MSG-10098",
+    "MSG-10099",
+    "MSG-10100"
+  ],
+  "content": "{\"results\": [{\"message_id\": \"MSG-10081\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A rattle from the rear seat area over bumps.\"}, {\"message_id\": \"MSG-10082\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake warning and soft brake pedal (code BRK_w003).\"}, {\"message_id\": \"MSG-10083\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulling to one side when braking.\"}, {\"message_id\": \"MSG-10084\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"Tyre hum at highway speed.\"}, {\"message_id\": \"MSG-10085\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A charge port latch that sticks and needs a second press.\"}, {\"message_id\": \"MSG-10086\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"An overnight drop in estimated range.\"}, {\"message_id\": \"MSG-10087\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An ABS warning with wheels locking on wet roads (code ABS_w002).\"}, {\"message_id\": \"MSG-10088\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A clunk from the rear boot area over speed bumps.\"}, {\"message_id\": \"MSG-10089\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A wiper grinding when parked but still wiping.\"}, {\"message_id\": \"MSG-10090\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A burnt smell from the heater at start-up while heat works.\"}, {\"message_id\": \"MSG-10091\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"The car pulling to one side when braking.\"}, {\"message_id\": \"MSG-10092\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"A phone key that takes multiple attempts to unlock the car.\"}, {\"message_id\": \"MSG-10093\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake fluid level warning (code BRK_a001).\"}, {\"message_id\": \"MSG-10094\", \"tag\": \"routine\", \"fix_path\": \"remote_support\", \"reason\": \"Owner app login failures.\"}, {\"message_id\": \"MSG-10095\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A clunk from the front suspension over potholes and speed bumps.\"}, {\"message_id\": \"MSG-10096\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"An ESP/traction warning on wet roads (code ESP_w003).\"}, {\"message_id\": \"MSG-10097\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A cabin fan rattling at the highest setting.\"}, {\"message_id\": \"MSG-10098\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A charge port flap that needs a second press to open.\"}, {\"message_id\": \"MSG-10099\", \"tag\": \"routine\", \"fix_path\": \"next_visit\", \"reason\": \"A wiper grinding when parked and leaving a streak but still wiping.\"}, {\"message_id\": \"MSG-10100\", \"tag\": \"safety_urgent\", \"fix_path\": \"safety_callback\", \"reason\": \"A brake warning and sinking brake pedal (code BRK_w003).\"}]}"
+}
